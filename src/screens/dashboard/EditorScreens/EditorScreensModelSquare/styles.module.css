@@ -1,0 +1,15 @@
+.items {
+	column-count: 3;
+	column-gap: 10px;
+}
+.item {
+	break-inside: avoid;
+}
+.content {
+	background: #ccc;
+	padding: 15px;
+	margin-top: 10px;
+}
+.item:first-child .content {
+	margin-top: 0;
+}
